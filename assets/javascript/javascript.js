@@ -66,7 +66,7 @@ $(document).ready(function(){
 		addButton();
 		$(document).on('click','.newPlayerButton',function() {
 			var player = $(this).attr('player');
-			var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + player + "&api_key=dc6zaTOxFJmzC&limit=10";
+			var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + player + "&api_key=dc6zaTOxFJmzC&limit=10";
 			$('#displayGifsHere').empty();
 			ajax(queryURL);
 		});
@@ -76,7 +76,7 @@ $(document).ready(function(){
 	$(document).on('click','.playerButton', function() {
 		$('#displayGifsHere').empty();
 		var player = $(this).attr('player');
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + player + "&api_key=dc6zaTOxFJmzC&limit=10";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + player + "&api_key=dc6zaTOxFJmzC&limit=10";
 		$.ajax({
 			url: queryURL,
 			method: 'GET'
