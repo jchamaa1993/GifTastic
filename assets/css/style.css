@@ -1,0 +1,21 @@
+body {
+	background-color: #DDDDDD;
+}
+
+.imageDiv {
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+}
+
+#player-input {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#searchBarDiv {
+	margin-top: 10px;
+}
+
+.playerButton, .newPlayerButton {
+	margin: 2.5px 1% 2.5px 1%;
+}
