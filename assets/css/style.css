@@ -19,3 +19,7 @@ body {
 .playerButton, .newPlayerButton {
 	margin: 2.5px 1% 2.5px 1%;
 }
+
+img {
+	cursor: pointer; cursor: hand;
+}
